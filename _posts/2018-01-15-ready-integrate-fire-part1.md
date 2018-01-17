@@ -133,19 +133,11 @@ But since $$V_{reset} \lt V_{th}$$, the above condition reduces to
 We have to note that there is no negative membrane resistance and that $$V_{reset}$$  is always less than or equal to the resting potential $$E_L$$, making the right-hand side of the above inequality to be nonpositive. However, the injected current $$I_e$$ is always nonnegative, making the above inequality to be invalid.
 
 This therefore leads us to only consider the result of the first case. If we set the threshold current as $$I_{th} = \frac{V_{th}-E_L}{R_m}$$, then $$r_{isi}$$ is defined by Eq 5 if the injected current $$I_e$$ is greater than $$I_{th}$$. Otherwise, the neuron will not fire and thus $$r_{isi} = 0$$.Thus, the theoretical interspike-interval firing rate $$r_{isi}$$ is formally given by
-
-\begin{align}
-r_{isi} =
-\begin{cases}
- \Big[ \tau_m\ln \Big( \dfrac{R_mI_e + E_L - V_{reset}}{R_mI_e + E_L - V_{th}} \Big)\Big] ^{-1} &amp; \text{ if } I_e > I_{th} = \dfrac{V_{th}-E_L}{R_m}  \\\\
-  0 &amp; \text{ if } I_e \leq I_{th}.
- \end{cases}
- \end{align}
  
 $$r_{isi} =
 \begin{cases}
  \Big[ \tau_m\ln \Big( \dfrac{R_mI_e + E_L - V_{reset}}{R_mI_e + E_L - V_{th}} \Big)\Big] ^{-1} \text{ if } I_e > I_{th} = \dfrac{V_{th}-E_L}{R_m}  \\\\
-  0 \text{ if } I_e \leq I_{th}.
+  0 \qquad \qquad \qquad \text{ if } I_e \leq I_{th}.
  \end{cases}$$
 
 So that concludes my first blog post. On the second one in this four-part series, I will simulate the leaky integrate-and-fire model using Python and verify the theoretical interspike-interval firing rate we just computed. ’Til next time, brain folks!
