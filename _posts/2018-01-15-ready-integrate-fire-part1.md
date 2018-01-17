@@ -56,7 +56,7 @@ $$\tau_m \dfrac{dV}{dt} + V = E_L + R_mI_e \text{ (Eq 2)}$$
 
 Since the input current $$I_e$$ is assumed to be constant, the right-hand side of the equation also turns out to be a constant, i.e. $$\tau_m \frac{dV}{dt} + V = f(t),$$ where $$f(t)=E_L + R_mI_e$$. By setting $$f(t)=0$$, the homogeneous counterpart is given by
 
-$$\begin{align} \tau_m V’ + V &amp;= 0 \\\\ V’ &amp;= -\dfrac{V}{\tau_m}. \end{align}$$
+$$\begin{align} \tau_m V’ + V &amp;= 0 \\ V’ &amp;= -\dfrac{V}{\tau_m}. \end{align}$$
 
 By separation of variables (or just intuition), the solution to the above equation is simply 
 
