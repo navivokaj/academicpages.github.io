@@ -74,7 +74,7 @@ $$V_p (t) = E_L + R_mI_e.$$
 
 The general solution for the nonhomogeneous differential equation Eq 1 is expressed as the sum of the homogeneous solution $$V_h (t)$$ and the particular solution $$V_p (t)$$. That is,
 
-$$\begin{align} V(t) &= V_h (t) + V_p (t) \\ V(t) &= A e^{-t/\tau_m} + E_L + R_mI_e \text{ (Eq 3)} \end{align}$$ 
+\begin{align} V(t) &amp; = V_h (t) + V_p (t) \\\\ V(t) &amp; = A e^{-t/\tau_m} + E_L + R_mI_e \text{ (Eq 3)} \end{align} 
 
 In order to find the exact value of the constant $$A$$ in the above equation, we simply use the initial condition that we know the value $$V(t_0)$$ of the neuron’s membrane potential at the reference point $$t= t_0$$:
 
