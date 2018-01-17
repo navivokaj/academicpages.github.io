@@ -142,11 +142,11 @@ r_{isi} =
  \end{cases}
  \end{align}
  
-&&r_{isi} =
+$$r_{isi} =
 \begin{cases}
  \Big[ \tau_m\ln \Big( \dfrac{R_mI_e + E_L - V_{reset}}{R_mI_e + E_L - V_{th}} \Big)\Big] ^{-1} \text{ if } I_e > I_{th} = \dfrac{V_{th}-E_L}{R_m}  \\\\
   0 \text{ if } I_e \leq I_{th}.
- \end{cases}&&
+ \end{cases}$$
 
 So that concludes my first blog post. On the second one in this four-part series, I will simulate the leaky integrate-and-fire model using Python and verify the theoretical interspike-interval firing rate we just computed. ’Til next time, brain folks!
 
