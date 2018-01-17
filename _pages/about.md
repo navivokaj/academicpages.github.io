@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-# About 
-
-Coming soon!
+Coming soon! For the meantime, check out [my first blog post!](https://navivokaj.github.io/posts/2018/01/ready-integrate-fire-part1/)
