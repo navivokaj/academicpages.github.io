@@ -24,7 +24,7 @@ The integrate-and-fire model was first proposed by the French neuroscientist Lou
 
 The integrate-and-fire model captures all these properties by carrying out the following golden rule:
 
-*Whenever the membrane potential of the model neuron reaches a threshold value $$V_{th}$$, the neuron fires an action potential. After the action potential, the membrane potential is reset to a value $$V_{reset}$$ below the threshold potential, $$ V_{reset} &lt; V_{th}.$$*
+*Whenever the membrane potential of the model neuron reaches a threshold value $$V_{th}$$, the neuron fires an action potential. After the action potential, the membrane potential is reset to a value $$V_{reset}$$ below the threshold potential, $$ V_{reset} \lt V_{th}$$.*
 
 The above rule spells out how the model got its name: as the membrane potential accumulates (or integrates in continuous terms, much like what an integral does) up to the point-of-no-return (the threshold value), the neuron releases (aka fires) an action potential. Ready, integrate, fire!
 
