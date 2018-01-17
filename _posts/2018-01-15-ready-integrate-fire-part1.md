@@ -24,7 +24,7 @@ The integrate-and-fire model was first proposed by the French neuroscientist Lou
 
 The integrate-and-fire model captures all these properties by carrying out the following golden rule:
 
-*Whenever the membrane potential of the model neuron reaches a threshold value $$V_{th}$$, the neuron fires an action potential. After the action potential, the membrane potential is reset to a value $$V_{reset}$$ below the threshold potential, $$ V_{reset} \< V_{th}.$$*
+*Whenever the membrane potential of the model neuron reaches a threshold value $$V_{th}$$, the neuron fires an action potential. After the action potential, the membrane potential is reset to a value $$V_{reset}$$ below the threshold potential, $$ V_{reset} &lt; V_{th}.$$*
 
 The above rule spells out how the model got its name: as the membrane potential accumulates (or integrates in continuous terms, much like what an integral does) up to the point-of-no-return (the threshold value), the neuron releases (aka fires) an action potential. Ready, integrate, fire!
 
@@ -56,7 +56,7 @@ $$\tau_m \dfrac{dV}{dt} + V = E_L + R_mI_e \text{ (Eq 2)}$$
 
 Since the input current $$I_e$$ is assumed to be constant, the right-hand side of the equation also turns out to be a constant, i.e. $$\tau_m \frac{dV}{dt} + V = f(t),$$ where $$f(t)=E_L + R_mI_e$$. By setting $$f(t)=0$$, the homogeneous counterpart is given by
 
-\begin{align} \tau_m V’ + V &= 0 \\\\ V’ &= -\dfrac{V}{\tau_m}. \end{align}
+$$\begin{align} \tau_m V’ + V &amp;= 0 \\\\ V’ &amp;= -\dfrac{V}{\tau_m}. \end{align}$$
 
 By separation of variables (or just intuition), the solution to the above equation is simply 
 
