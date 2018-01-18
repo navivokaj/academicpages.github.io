@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I'm Jakov, and I dream to become a computational neuroscientist. This dream come from three motivations:
+Hi! I'm Jakov, and I dream to become a computational neuroscientist. This dream stems from three motivations:
 
 1. My passion for mathematics
 
