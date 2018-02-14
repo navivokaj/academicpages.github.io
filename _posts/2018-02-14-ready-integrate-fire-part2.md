@@ -111,7 +111,6 @@ plt.show()
 ```
 
 
-<img src="https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png" />
 ![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
 
 
@@ -171,7 +170,7 @@ plt.show()
 ![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_17_0.png)
 
 
-Finally, we would like to compute the avarage firing rate of the cell during the time of stimulation. A neuron's average firing rate over a specified period of time is calculated as the number of spikes produced over the specified time period:
+Finally, we would like to compute the average firing rate of the cell during the time of stimulation. A neuron's average firing rate over a specified period of time is calculated as the number of spikes produced over the specified time period:
 
 $$r_{ave} = \dfrac{no. of spikes}{time period}.$$
 
@@ -293,7 +292,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 ```
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_0.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_0.png)
 
 
     Input current:  1.43 nA
@@ -301,7 +300,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_2.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_2.png)
 
 
     Input current:  1.47 nA
@@ -309,7 +308,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_4.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_4.png)
 
 
     Input current:  1.51 nA
@@ -317,7 +316,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_6.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_6.png)
 
 
     Input current:  1.55 nA
@@ -325,7 +324,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_8.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_8.png)
 
 
     Input current:  1.59 nA
@@ -333,7 +332,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_10.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_10.png)
 
 
     Input current:  1.63 nA
@@ -341,7 +340,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_12.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_12.png)
 
 
     Input current:  1.67 nA
@@ -349,7 +348,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_14.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_14.png)
 
 
     Input current:  1.71 nA
@@ -357,7 +356,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_16.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_16.png)
 
 
     Input current:  1.75 nA
@@ -365,7 +364,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_18.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_18.png)
 
 
     Input current:  1.79 nA
@@ -373,7 +372,7 @@ for j in range(len(I_Stim_vect)): #loop over different I_Stim values
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_20.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_27_20.png)
 
 
     Input current:  1.83 nA
@@ -462,7 +461,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_0.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_0.png)
 
 
     Input current:  1.43 nA
@@ -470,7 +469,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_2.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_2.png)
 
 
     Input current:  1.47 nA
@@ -478,7 +477,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_4.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_4.png)
 
 
     Input current:  1.51 nA
@@ -486,7 +485,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_6.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_6.png)
 
 
     Input current:  1.55 nA
@@ -494,7 +493,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_8.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_8.png)
 
 
     Input current:  1.59 nA
@@ -502,7 +501,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_10.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_10.png)
 
 
     Input current:  1.63 nA
@@ -510,7 +509,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_12.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_12.png)
 
 
     Input current:  1.67 nA
@@ -518,7 +517,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_14.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_14.png)
 
 
     Input current:  1.71 nA
@@ -526,7 +525,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_16.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_16.png)
 
 
     Input current:  1.75 nA
@@ -534,7 +533,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_18.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_18.png)
 
 
     Input current:  1.79 nA
@@ -542,7 +541,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_20.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_20.png)
 
 
     Input current:  1.83 nA
@@ -550,7 +549,7 @@ plt.show()
 
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_22.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_29_22.png)
 
 
 As can be seen from the graph above, the plot of average firing rates from our simulations match the theoretical firing rate curve whose formula we derived analytically. The small discrepancies are due to the difference between our experiment's time window of counting and the total number of interspike intervals. Theoretically, if we started our time window of counting spikes for computing $$r_{ave}$$ when the voltage was at $$V_{reset}$$ (i.e. just after a spike) and ended our time window just after another spike, then these two measures should be the same. But looking at our simulations, the neuron was about to spike when we cut off the stimulus, so our $$r_{ave}$$ rate is smaller than $$r_{isi} = 1/t_{isi}$$. Because we ended our time window just before a spike, then for a 300 ms window, this will decrease $$r_{ave}$$ by (1 spike)/(300 ms) = 3.33 Hz.
