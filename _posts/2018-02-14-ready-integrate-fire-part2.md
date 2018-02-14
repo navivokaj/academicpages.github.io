@@ -111,7 +111,7 @@ plt.show()
 ```
 
 
-![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
 
 
 As can be seen in the above graph, the voltage (in mV) should rise exponentially towards -60 mV starting at $$t=100,$$ then decay back exponentially at $$t=400$$ (both rise and decay with time constants at $$\tau =10$$ ms).
@@ -167,7 +167,7 @@ plt.show()
 ```
 
 
-![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_17_0.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_17_0.png)
 
 
 Finally, we would like to compute the avarage firing rate of the cell during the time of stimulation. A neuron's average firing rate over a specified period of time is calculated as the number of spikes produced over the specified time period:
@@ -224,7 +224,7 @@ plt.show()
 ```
 
 
-![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_23_0.png)
+![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_23_0.png)
 
 
 ### Step 6: Calculate average firing rate
