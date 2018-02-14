@@ -111,6 +111,7 @@ plt.show()
 ```
 
 
+<img class="center" src="https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png" />
 ![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
 
 
