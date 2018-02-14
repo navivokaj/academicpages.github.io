@@ -1,7 +1,14 @@
 
-# Simulating a Leaky Integrate-and-Fire Neuron Model with Static Input Current
+title: "'Ready, Integrate, Fire!' Part 1: Simulating a simple neuronal model"
+date: 2018-02-14
+permalink: /posts/2018/02/ready-integrate-fire-part2/
+tags:
+  - computational neuroscience
+  - neural computation
+  - integrate-and-fire model
+---
 
-This Jupyter notebook will simulate a leaky integrate-and-fire neuron model with static input current using Numpy. We will also verify the formula for theoretical firing rate we derived in the last blog post. This is a direct Python translation (with a slight modification) of the Matlab code found in this [tutorial paper created by the Goldman Lab at UC Davis](http://neuroscience.ucdavis.edu/goldman/Tutorials_files/Integrate&Fire.pdf).
+*This Jupyter notebook will simulate a leaky integrate-and-fire neuron model with static input current using Numpy. We will also verify the formula for theoretical firing rate we derived in the last blog post.* This is a direct Python translation (with a slight modification) of the Matlab code found in this [tutorial paper created by the Goldman Lab at UC Davis](http://neuroscience.ucdavis.edu/goldman/Tutorials_files/Integrate&Fire.pdf).
 
 In my [last blog post](https://navivokaj.github.io/posts/2018/01/ready-integrate-fire-part1/), I presented the Leaky Integrate-and-Fire Model, where a neuron is modelled as a leaky capacitor with membrane resistance $R_m$, time constant $\tau_m$, and resting potential $E_L$. Below the threshold value $V_{th}$, the equation for the voltage $V(t)$ of this neuron when it receives a current injection $I_e$ is given by:
 
