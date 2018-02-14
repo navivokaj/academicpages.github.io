@@ -85,7 +85,7 @@ I_Stim = 1 #magnitude of pulse of injected current [nA]
 I_e_vect[np.int(t_StimStart/dt):np.int(t_StimEnd/dt)+1] = I_Stim*np.ones((np.int((t_StimEnd-t_StimStart)/dt)+1,))
 ```
 
-Note that we want that at time $$t=0$$, $$V=E_L$$, so we set the first element of V to this value. We also defined the current injected at all times as $$I_{e-vect}$$. Sinec we want to start simulating at time $$t_{StimStart}=100$$ ms and end at time $$t_StimEnd = 400$$ ms, we also set the elements of $$I_{e-vect}=I_{StimPulse}$$ between 100 and 400 ms where $$I_{StimPulse}$$ is the amplitude of the injected current during the simulation. We have set this value to 1 nA. 
+Note that we want that at time $$t=0$$, $$V=E_L$$, so we set the first element of V to this value. We also defined the current injected at all times as $$I_{e-vect}$$. Sinec we want to start simulating at time $$t_{StimStart}=100$$ ms and end at time $$t_{StimEnd} = 400$$ ms, we also set the elements of $$I_{e-vect}=I_{StimPulse}$$ between 100 and 400 ms where $$I_{StimPulse}$$ is the amplitude of the injected current during the simulation. We have set this value to 1 nA. 
 
 ### Step 4: Write Leaky Integrate-and-Fire Neuron Model
 
@@ -111,7 +111,7 @@ plt.show()
 ```
 
 
-![png](/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
+![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
 
 
 As can be seen in the above graph, the voltage (in mV) should rise exponentially towards -60 mV starting at $$t=100,$$ then decay back exponentially at $$t=400$$ (both rise and decay with time constants at $$\tau =10$$ ms).
@@ -167,10 +167,11 @@ plt.show()
 ```
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_17_0.png)
+![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_17_0.png)
 
 
 Finally, we would like to compute the avarage firing rate of the cell during the time of stimulation. A neuron's average firing rate over a specified period of time is calculated as the number of spikes produced over the specified time period:
+
 $$r_{ave} = \dfrac{no. of spikes}{time period}.$$
 
 To calculate this, we need to modify Steps 3-4 and add another step 6.
@@ -223,7 +224,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_23_0.png)
+![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_23_0.png)
 
 
 ### Step 6: Calculate average firing rate
@@ -244,6 +245,7 @@ print('average firing rate: ', r_ave, 'Hz')
 We want to verify the theoretical firing rate formula we derived in my [last blog post](https://navivokaj.github.io/posts/2018/01/ready-integrate-fire-part1/):
 
 $$r_{isi} = \begin{cases} \Big[ \tau_m\ln \Big( \dfrac{R_mI_e + E_L - V_{reset}}{R_mI_e + E_L - V_{th}} \Big)\Big] ^{-1} \text{ if } I_e > I_{th} = \dfrac{V_{th}-E_L}{R_m} \\ 0 \qquad \qquad \qquad \qquad \qquad \text{ if } I_e \leq I_{th}. \end{cases}\hspace{1 cm} (Eq 4)$$
+
 where $$t_{isi}$$ is the interspike interval for a LIF neuron receiving constant current input $$I_e=I_0$$ and $$I_{th}$$ is the minimum level of current injection needed to make the neuron fire.
 
 We compare this theoretical value with the average firing rates we generate from our simulations using the LIF model we constructed above. We'll do this for several values of $$I_{stim}$$, so we need to put some of the previous code (Steps 3-6) inside a for loop, iterating over different values of $$I_{stim}$$. For our case, we will loop over 11 values of $$I_{stim}$$ from 1.43 to 1.83. The compiled code for the modified Steps 3-6 are as follows:
