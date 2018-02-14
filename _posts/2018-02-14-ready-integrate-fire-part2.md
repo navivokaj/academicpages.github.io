@@ -112,7 +112,7 @@ plt.show()
 
 
 <img src="https://github.com/navivokaj/navivokaj.github.io/blob/master/_posts/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png" />
-![png](/images/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
+![png](/LIFModelStaticCurrent_files/LIFModelStaticCurrent_10_0.png)
 
 
 As can be seen in the above graph, the voltage (in mV) should rise exponentially towards -60 mV starting at $$t=100,$$ then decay back exponentially at $$t=400$$ (both rise and decay with time constants at $$\tau =10$$ ms).
