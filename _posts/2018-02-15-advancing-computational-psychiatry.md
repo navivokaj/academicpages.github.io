@@ -1,8 +1,17 @@
-Advancing Computational Psychiatry by Linking Theory to Practice
+---
+title: "Advancing Computational Psychiatry by Linking Theory to Practice"
+date: 2018-02-15
+permalink: /posts/2018/02/advancing-computational-psychiatry/
+tags:
+  - computational psychiatry
+  - machine learning
+  - mechanistic model
+  - Stochastic Brain Review
+---
 
 *This is my first blog post entry to the series which I’d call ‘The Stochastic Brain Review’. In this series, I will review research articles which pique my interest, get into their core, and explore some of their promising implications.*
 
-I chose to review [’Computational psychiatry as a bridge from neuroscience to clinical applications’](https://www.ncbi.nlm.nih.gov/pubmed/26906507) by Quentin Huys et.al (2016). This paper introduces the emerging science of computational psychiatry, examines its two approaches, and reviews advances in both methodologies, with an emphasis on clinical applications. This paper argues that combining both theory- and data- driven approaches are very promising in advancing the field of psychiatry.
+I chose to review [Computational psychiatry as a bridge from neuroscience to clinical applications](https://www.ncbi.nlm.nih.gov/pubmed/26906507) by Quentin Huys et.al (2016). This paper introduces the emerging science of computational psychiatry, examines its two approaches, and reviews advances in both methodologies, with an emphasis on clinical applications. This paper argues that combining both theory- and data- driven approaches are very promising in advancing the field of psychiatry.
 
 # What is computational psychiatry?
 
