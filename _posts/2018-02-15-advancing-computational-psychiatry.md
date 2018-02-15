@@ -25,7 +25,7 @@ What makes psychiatry even difficult is that the mapping between these levels is
 
 ## Why multiple types of psychiatric data?
 
-![Depressed PET Scan](/images/SBR01/depressedpetscan.png = 250x){: .center-image }
+![Depressed PET Scan](/images/SBR01/depressedpetscan.png){: .center-image }
 
 **Figure 1.** A PET scan comparing brain activity during periods of depression (left) with normal brain activity (right): a decrease of white and yellow colors, along with increased blue and green areas, indicates that depressed individuals have decreased brain activity.[(Source)](https://www.mayoclinic.org/tests-procedures/pet-scan/multimedia/-pet-scan-of-the-brain-for-depression/img-20007400)
 
@@ -52,7 +52,7 @@ While this approach has yielded key insights at many levels of analysis concerni
 
 # A Bright Future for Computational Psychiatry
 
-![ROC](/images/SBR01/ROC.png = 250x){: .center-image }
+![ROC](/images/SBR01/ROC.png){: .center-image }
 
 **Figure 2.** Theory-driven models yield parameters that can be used as features to improve ML performance. A classifier trained on estimated parameters of a model fitted to simulated behavioral data (light blue curve, AUC 0.87) performed better than when trained on the raw data directly (purple curve, AUC 0.74). [(Image and Description Source)](https://www.ncbi.nlm.nih.gov/pubmed/26906507)
 
