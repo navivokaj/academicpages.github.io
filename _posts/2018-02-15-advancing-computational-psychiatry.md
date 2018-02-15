@@ -52,7 +52,7 @@ While this approach has yielded key insights at many levels of analysis concerni
 
 # A Bright Future for Computational Psychiatry
 
-![ROC](/images/SBR01/ROC.png){: .center-image }
+![ROC](/images/SBR01/ROC1.png){: .center-image }
 
 **Figure 2.** Theory-driven models yield parameters that can be used as features to improve ML performance. A classifier trained on estimated parameters of a model fitted to simulated behavioral data (light blue curve, AUC 0.87) performed better than when trained on the raw data directly (purple curve, AUC 0.74). [(Image and Description Source)](https://www.ncbi.nlm.nih.gov/pubmed/26906507)
 
