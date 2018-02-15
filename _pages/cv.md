@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Coming soon! For the meantime, check out [blog posts](https://navivokaj.github.io/year-archive/)!
+Coming soon! For the meantime, check out [my blog posts](https://navivokaj.github.io/year-archive/)!
