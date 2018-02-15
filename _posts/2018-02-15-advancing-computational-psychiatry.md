@@ -25,7 +25,8 @@ What makes psychiatry even difficult is that the mapping between these levels is
 
 ## Why multiple types of psychiatric data?
 
-![Depressed PET Scan](/images/SBR01/depressedpetscan.png){: .center-image }
+![Depressed PET Scan](/images/SBR01/depressedpetscan.png = 250x){: .center-image }
+
 **Figure 1.** A PET scan comparing brain activity during periods of depression (left) with normal brain activity (right): a decrease of white and yellow colors, along with increased blue and green areas, indicates that depressed individuals have decreased brain activity.[(Source)](https://www.mayoclinic.org/tests-procedures/pet-scan/multimedia/-pet-scan-of-the-brain-for-depression/img-20007400)
 
 In order for psychiatrists to diagnose properly their patients, they use a wide range of psychiatric data, which maybe classified into either brain data (such as EEG, fMRI, and PET scans) or behavior data (such as [HDRS](http://www.assessmentpsychology.com/HAM-D.pdf) and [QIDS](http://www.ids-qids.org/) scores). These information gathered by clinicians are also the same data used in computational psychiatry. 
@@ -51,7 +52,8 @@ While this approach has yielded key insights at many levels of analysis concerni
 
 # A Bright Future for Computational Psychiatry
 
-![ROC](/images/SBR01/ROC.png){: .center-image }
+![ROC](/images/SBR01/ROC.png = 250x){: .center-image }
+
 **Figure 2.** Theory-driven models yield parameters that can be used as features to improve ML performance. A classifier trained on estimated parameters of a model fitted to simulated behavioral data (light blue curve, AUC 0.87) performed better than when trained on the raw data directly (purple curve, AUC 0.74). [(Image and Description Source)](https://www.ncbi.nlm.nih.gov/pubmed/26906507)
 
 We have seen the advantages and limitations of both data- and theory-driven approaches. A bright future still awaits for computational psychiatry, and this lies on the integration of these two approaches.  Studies have already been conducted that show the promising advantage of combining the two approaches (see Figure 2). Such a combination may solve the curse of dimensionality—theory-driven approach uses prior knowledge to massively reduce the dimensionality of the dataset by ‘projecting’ it to the space of a few relevant parameters. A data-driven approach can then work on this lower-dimensional dataset with increased efficiency and reliability.
