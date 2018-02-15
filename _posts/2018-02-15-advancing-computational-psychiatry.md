@@ -11,7 +11,7 @@ tags:
 
 *This is my first blog post entry to the series which I’d call ‘The Stochastic Brain Review’. In this series, I will review research articles which pique my interest, get into their core, and explore some of their promising implications.*
 
-I chose to review [Computational psychiatry as a bridge from neuroscience to clinical applications](https://www.ncbi.nlm.nih.gov/pubmed/26906507) by Quentin Huys et.al (2016). This paper introduces the emerging science of computational psychiatry, examines its two approaches, and reviews advances in both methodologies, with an emphasis on clinical applications. This paper argues that combining both theory- and data- driven approaches are very promising in advancing the field of psychiatry.
+I chose to review [Computational psychiatry as a bridge from neuroscience to clinical applications](https://www.ncbi.nlm.nih.gov/pubmed/26906507) by Quentin Huys et.al. (2016). This paper introduces the emerging science of computational psychiatry, examines its two approaches, and reviews advances in both methodologies, with an emphasis on clinical applications. This paper argues that combining both theory- and data- driven approaches are very promising in advancing the field of psychiatry.
 
 # What is computational psychiatry?
 
@@ -21,7 +21,7 @@ I chose to review [Computational psychiatry as a bridge from neuroscience to cli
 
 One of the main things that complicate psychiatry is that mental health depends not only on the function of the brain (the most complex organ in living organisms we know so far), but also how that function relates to, influences, and is influenced by the individual’s environmental and experiential challenges. Understanding mental health, and its disruption, therefore relies on bridging multiple interacting levels, from molecules to cells, neural circuits, cognition, behavior, and the physical and social environment.
 
-What makes psychiatry even difficult is that the mapping between these levels is not one-to-one. The same biological disturbance can affect several seemingly unrelated psychological functions and, conversely, different biological dysfunctions can produce similar psychological and even neural-circuit disturbances. For example, as stated by Jon Rosier of University College London in [this lecture](https://www.youtube.com/watch?v=1Nh9j7-vJnA), symptoms such as anhedonia (loss of interest and inability to feel pleasure) appear in multiple disorders such as major depressive disorder, schizophrenia, and Parkinson’s disease. This makes the diagnosis and choice of treatment for patients as a hard process for clinical psychiatrists.  
+What makes psychiatry even difficult is that the mapping between these levels is not one-to-one. The same biological disturbance can affect several seemingly unrelated psychological functions and, conversely, different biological dysfunctions can produce similar psychological and even neural-circuit disturbances. For example, as stated by Jon Rosier of University College London in [this lecture](https://www.youtube.com/watch?v=1Nh9j7-vJnA), symptoms such as anhedonia (loss of interest and inability to feel pleasure) appear in multiple disorders such as major depressive disorder, schizophrenia, and Parkinson’s disease. This makes the diagnosis and choice of treatment for patients a hard process for clinical psychiatrists.  
 
 ## Why multiple types of psychiatric data?
 
@@ -52,7 +52,7 @@ While this approach has yielded key insights at many levels of analysis concerni
 
 # A Bright Future for Computational Psychiatry
 
-![ROC](/images/SBR01/ROC.png){: .center-image }
+![ROC](/images/SBR01/ROC1.png){: .center-image }
 
 **Figure 2.** Theory-driven models yield parameters that can be used as features to improve ML performance. A classifier trained on estimated parameters of a model fitted to simulated behavioral data (light blue curve, AUC 0.87) performed better than when trained on the raw data directly (purple curve, AUC 0.74). [(Image and Description Source)](https://www.ncbi.nlm.nih.gov/pubmed/26906507)
 
