@@ -1,6 +1,6 @@
 ---
 title: "Making Math Fun: The Chocolate Chili Game"
-date: 2018-02-15
+date: 2018-04-20
 permalink: /posts/2018/04/chocolate-chili-game/
 tags:
   - recreational mathematics
