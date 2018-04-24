@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I'm Jakov, and I dream of becoming a computational neuroscientist. My ambition stems from three motivations:
+Hi! Check out my [latest blog posts here](https://navivokaj.github.io/year-archive/)! 
+
+I'm Jakov, and I dream of becoming a computational neuroscientist. My ambition stems from three motivations:
 
 ### 1) My passion for mathematics
 
