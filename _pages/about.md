@@ -17,7 +17,7 @@ Ever since I was a child, I already love numbers and symbols. This propelled me 
 
 ### 2) My interest in knowing how the brain works
 
-I am fascinated with what the human brain does, how it performs various processes, and why the brain does what it does. Being born with a neurological disorder ([spastic hemiplegia](http://www.brainandspinalcord.org/spastic-hemiplegia/), a mild type of cerebral palsy affecting the right side of my body), I wonder how brain injuries occurring at prenatal, perinatal, and postnatal stages influence the anatomy and physiology of a developing brain. I hope that by studying neuroscience, I will know more of my lifetime condition and myself.
+I am fascinated with what the human brain does, how it performs various processes, and why the brain does what it does. I hope that by studying neuroscience, I will know how brain injuries occurring at prenatal, perinatal, and postnatal stages influence the anatomy and physiology of a developing brain.
 
 ### 3) My desire to help humanity through scientific research
 
